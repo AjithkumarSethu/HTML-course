@@ -1,0 +1,45 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+p{
+    font-size: 16px;
+    border: 1px solid black;
+    width: 50%;
+    height: 700px;
+    border-radius: 80px 50px;
+    -webkit-border-radius: 80px 50px;
+    -moz-border-radius:80px 50px
+}
+h3{
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+    border: 1px solid black;
+}
+
+a:link{
+    color:blue
+}
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: yellow;
+}
+a:active{
+    color:green;
+}
+a:focus{
+    color: pink;
+}
+p[class='ajith']{
+    color: red;
+    text-transform: uppercase;
+
+}
+li{
+    display: inline;
+    border: 1px solid black;
+}

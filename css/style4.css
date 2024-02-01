@@ -1,0 +1,18 @@
+.para1{
+    background-color: rgb(158, 130, 237);
+}
+.para2{
+    background-color: rgb(191, 23, 191);
+}
+.para3{
+    background-color: rgb(12, 177, 122);
+}
+
+@media (min-width:700px){
+    .container {
+        display: flex;
+    }
+    .para2{
+        background-color: rgb(177, 34, 36);
+    }
+}
